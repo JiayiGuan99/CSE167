@@ -13,6 +13,10 @@ We created this Image class to store the RGB colors for each pixel in arrays of 
 
 We created the triangle class to store the position and color of each pixels. The reason why we used triangle instead of buffers is that triagnles are more memory efficient and also can be sorted. In this class, each triangle contains three vertices, three normal vectors and material pointer which represents the material of the area. One more reason why we used triangles instead of buffers is that triangle is the smallest two dimensional primitives, so that triangles are eariser to render.
 
+**Ray class:**
+
+Ray class contains two variables, basepoint and a direction. As basepoint is where the ray is shotting out from in dir direction.
+
 **Intersection class:**
 
 Intersection class contains the three variables,"P" the position of the intersection, "N" the surface normal vector, "V" the directiom to the incoming ray, "triangle" that contains the material information and "dist" which is the disctance to the source of ray . The class basically represents the intersection point of a ray with a triangle or a scence. We will be finding the color of each pixel with intersect and lights.
@@ -21,11 +25,14 @@ Intersection class contains the three variables,"P" the position of the intersec
 
 This class was modified from geometry class that we replaced the buffers with triangles to make the memory more efficient and make it eaiser to render.
 
-**RTObj class:**
-
-Modified as RTGeometry is created.
-
 **RTCube class:**
 
 In this class, we assign/initialize the 3 positions and 3 normals for each triangle with given datas, and insert each triangle into elements defined in RTGeometry.
+
+**RTObj class:**
+
+RTObj.h is modified as RTGeometry is created.
+In RTObj.cpp, we wrote the post processing of triangles. Similar to RTCube.h, given datas, we store the positions and normals at corresponding index into each triangle and insert it into elements list.
+
+
 
