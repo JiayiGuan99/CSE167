@@ -16,3 +16,6 @@ We created the triangle class to store the position and color of each pixels. Th
 **Intersection class:**
 
 Intersection class contains the three variables,"P" the position of the intersection, "N" the surface normal vector, "V" the directiom to the incoming ray, "triangle" that contains the material information and "dist" which is the disctance to the source of ray . The class basically represents the intersection point of a ray with a triangle or a scence. We will be finding the color of each pixel with intersect and lights.
+
+**RTGeometry class:**
+
