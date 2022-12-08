@@ -21,3 +21,11 @@ Intersection class contains the three variables,"P" the position of the intersec
 
 This class was modified from geometry class that we replaced the buffers with triangles to make the memory more efficient and make it eaiser to render.
 
+**RTObj class:**
+
+Modified as RTGeometry is created.
+
+**RTCube class:**
+
+In this class, we assign/initialize the 3 positions and 3 normals for each triangle with given datas, and insert each triangle into elements defined in RTGeometry.
+
