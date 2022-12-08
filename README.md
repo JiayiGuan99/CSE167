@@ -1,5 +1,6 @@
 # CSE167
 Done by: Jiayi Guan, Yuheng Ge
+
 Code based on HW3-CSE167-FA22.
 
 **Image class:**
