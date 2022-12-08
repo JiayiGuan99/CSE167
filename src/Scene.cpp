@@ -1,3 +1,4 @@
+
 /**************************************************
 Scene.cpp contains the implementation of the draw command
 *****************************************************/
@@ -104,6 +105,5 @@ void Scene::draw(void) {
     // HW3: Your code will only be above this line.
 
 }
-
 
 
