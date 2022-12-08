@@ -12,3 +12,7 @@ We created this Image class to store the RGB colors for each pixel in arrays of 
 
 
 We created the triangle class to store the position and color of each pixels. The reason why we used triangle instead of buffers is that triagnles are more memory efficient and also can be sorted. In this class, each triangle contains three vertices, three normal vectors and material pointer which represents the material of the area. One more reason why we used triangles instead of buffers is that triangle is the smallest two dimensional primitives, so that triangles are eariser to render.
+
+**Intersection class:**
+
+Intersection class contains the three variables,"P" the position of the intersection, "N" the surface normal vector, "V" the directiom to the incoming ray, "triangle" that contains the material information and "dist" which is the disctance to the source of ray . The class basically represents the intersection point of a ray with a triangle or a scence. We will be finding the color of each pixel with intersect and lights.
