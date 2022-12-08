@@ -4,7 +4,7 @@ Done by: Jiayi Guan, Yuheng Ge
 
 *Code based on HW3-CSE167-FA22.*
 
-** *Simple Descriptions - details in writeUp.pdf* **
+***Simple Descriptions - details in writeUp.pdf***
 
 **Image:**
 
