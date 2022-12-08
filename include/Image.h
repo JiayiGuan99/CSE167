@@ -9,14 +9,6 @@ public:
 	int height;
 	std::vector<glm::vec3> pixels; // RGB colors;
 
-	Image() {
-		width = 0;
-		height = 0;
-		//pixels = 0;
-		pixels.resize(0, glm::vec3(0.0));
-	}
-
-
 	Image(int w, int h) {
 		width = w;
 		height = h;
@@ -44,4 +36,3 @@ public:
 	}
 };
 #endif
-
