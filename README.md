@@ -34,5 +34,7 @@ In this class, we assign/initialize the 3 positions and 3 normals for each trian
 RTObj.h is modified as RTGeometry is created.
 In RTObj.cpp, we wrote the post processing of triangles. Similar to RTCube.h, given datas, we store the positions and normals at corresponding index into each triangle and insert it into elements list.
 
+**RTScene class:**
 
+In RTScene, we traverse through a scene in camera view using stack and dfs algorithm which is same as HW3. When drawing all the models, we are working on world coordinate, using the modelview matrix * position and inverse transpose * normal to transform the positions and normals correctly, as discussed in Lighting lecture.
 
