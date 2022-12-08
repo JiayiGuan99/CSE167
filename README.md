@@ -19,3 +19,5 @@ Intersection class contains the three variables,"P" the position of the intersec
 
 **RTGeometry class:**
 
+This class was modified from geometry class that we replaced the buffers with triangles to make the memory more efficient and make it eaiser to render.
+
