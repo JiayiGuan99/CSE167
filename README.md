@@ -1,4 +1,4 @@
-# CSE167
+# Computer Graphics
 Done by: Jiayi Guan, Yuheng Ge
 
 
